@@ -3,7 +3,7 @@
 This is an updated version of the simple 2D racing game built with Java and the Android SDK.
 
 ## ScreenShots And Video
-<a href="https://youtube.com/shorts/UWzlNe2CN-o?feature=share" target="_blank">
+<a href="https://youtu.be/57Mhc5-jnJ4" target="_blank">
  <img src="https://i.ibb.co/89VBNX5/Screenshot-2023-04-15-18-40-25.jpg" alt="Watch the video" width="240" height="300" border="10" />
 </a>
 
