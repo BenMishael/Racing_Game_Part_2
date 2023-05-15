@@ -50,6 +50,10 @@ public class PlayersList {
     }
 
     public void addPlayer(Player player) {
+        if(getListSize() == DataManager.getMaxNumOfPlayers()){
+            if(Integer.parseInt(player.getPlayerScore()) > Integer.parseInt(playersList.get(getListSize()-1).getPlayerScore()))
+                playersList.remove(getListSize()-1);
+        }
         playersList.add(player);
         sortList();
     }

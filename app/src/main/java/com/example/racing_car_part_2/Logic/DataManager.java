@@ -12,6 +12,7 @@ import com.example.racing_car_part_2.R;
 import java.util.ArrayList;
 
 public class DataManager {
+    private static final int MAX_NUM_OF_PLAYERS = 10;
     private static int[][] rockIds = {
             { R.id.main_IMG_rock_00, R.id.main_IMG_rock_01, R.id.main_IMG_rock_02, R.id.main_IMG_rock_03, R.id.main_IMG_rock_04 },
             { R.id.main_IMG_rock_10, R.id.main_IMG_rock_11, R.id.main_IMG_rock_12, R.id.main_IMG_rock_13, R.id.main_IMG_rock_14 },
@@ -124,9 +125,10 @@ public class DataManager {
     public static int getSlowDelay() {
         return SLOW_DELAY;
     }
+    public static int getMaxNumOfPlayers() {return MAX_NUM_OF_PLAYERS;};
 
     public static PlayersList getPlayers() {
-        final int numOfPlayers = 10;
+        final int numOfPlayers = MAX_NUM_OF_PLAYERS;
         PlayersList playersList = new PlayersList();
         ArrayList<Location> locations = new ArrayList<>();
         String[] playersNames = {"Yaniv", "Avi", "Eli", "Nir", "Tal", "Dan", "Yoni", "Eitan", "Ido", "Tomer"};
