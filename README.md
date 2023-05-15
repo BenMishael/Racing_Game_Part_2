@@ -12,7 +12,7 @@ This is an updated version of the simple 2D racing game built with Java and the 
 To install and run this game, clone the repository to your local machine and open the project in Android Studio. You can then build the app and install it on your Android device or emulator.
 
 ```bash
-git clone https://github.com/BenMishael/Racing_Game_Part_1.git
+git clone https://github.com/BenMishael/Racing_Game_Part_2.git
 ```
 
 
