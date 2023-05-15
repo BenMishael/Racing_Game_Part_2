@@ -4,7 +4,7 @@ This is an updated version of the simple 2D racing game built with Java and the 
 
 ## ScreenShots And Video
 <a href="https://youtu.be/57Mhc5-jnJ4" target="_blank">
- <img src="https://i.ibb.co/1XrBK7d/Screenshot-2023-05-15-20-38-04.png" alt="Watch the video" width="240" height="300" border="10" />
+ <img src="https://i.ibb.co/yFLTWZS/Screenshot-2023-05-15-20-38-04.jpg" alt="Watch the video" width="240" height="300" border="10" />
 </a>
 
 ## Installation
